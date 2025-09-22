@@ -1,0 +1,294 @@
+@media (max-width: 1200px) {
+    .yelp img {
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    
+    #footer .row.other-box .star img {
+        width: 100%;
+    }
+    #footer .row.other-box .bbb img {
+        width: 100%;
+    }
+    .contact-contact-link-box {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .main-head {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .work-test-content h4 {
+        font-size: 1.2rem;
+    }
+    h3.service-title {
+        font-size: 22px;
+    }
+    p.service-para {
+        font-size: 14px;
+    }
+    h2.count-number {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .patrol-img img{
+        display: block;
+    }
+    .patrol-img{
+        background-image: none;
+    }
+    section#about_contact .container:last-child{
+        padding-top: 25px;
+    }
+    a.text-white.about-social-link {
+        font-size: 25px;
+        line-height: 2.2;
+    }
+    section#about_about_company .row:nth-child(1) {
+        justify-content: center;
+    }
+}
+@media (max-width: 576px) {
+    .video iframe {
+        height: 240px;
+    }
+    .hand-shake img {
+        width: 80px;
+    }
+    .member-img {
+        border: 7px solid var(--primary-color);
+        border-radius: 50px;
+        margin: 32px 18px;
+    }
+    .yelp img {
+        width: auto;
+    }
+    section#about_service h1.text-white {
+        font-size: 26px;
+    }
+    section#about_service .row:first-child {
+        justify-content: center;
+    }
+    section#about_about_us h1.text-white{
+        font-size: 26px;
+    }
+}
+@media (max-width: 575.98px) {
+    .main-red-head p {
+        font-size: 25px;
+        padding: 40px 0;
+    }
+    .join-form.row {
+        margin: 0;
+    }
+    section#portfolio-join-us .join-form textarea {
+        width: 100%;
+    }
+    .counter {
+        margin-bottom: 20px;
+    }
+    .testimonial-box {
+        margin-bottom: 20px;
+    }
+    p.copy.text-white {
+        padding: 20px 18px 0;
+    }
+    h2.count-number {
+        font-weight: 600;
+    }
+    .row.address .main-part {
+        order: 1;
+    }
+    .row.address .phone-number {
+        order: 2;
+    }
+    .row.address .loca-tion {
+        order: 3;
+    }
+    p.address-para {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 15px;
+    }
+    .star {
+        order: 1;
+    }
+    .bbb {
+        order: 2;
+    }
+    .yelp {
+        order: 3;
+    }
+    footer#footer {
+        padding-bottom: 0;
+    }
+    .member-img img:nth-child(1){
+        width: 70%;
+    }
+    .member-img img:nth-child(2){
+        width: 100%;
+    }
+    .member-img img:nth-child(3){
+        width: 70%;
+    }
+    #brand .brand-img img {
+        width: 100%;
+    }
+    header .logo img{
+        width: 100%;
+    }
+    .video iframe {
+        height: 240px;
+    }
+    a.blog-head h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .blog-box-contant {
+        padding: 0px;
+    }
+}
+@media (max-width: 375px) {
+    .search-container input{
+        width: 225px;
+    }
+    .about-about-us-box h2.text-center {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .my.d-flex {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 320px) {
+}
+
+
+/* =================== MEDIA header ================== */
+
+
+@media (max-width: 1200px){
+    /* =============== SIDEBAR-MENU START STYLE =========== */
+    .menu-inner{
+        position: relative;
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        touch-action: auto;
+        overflow-x: hidden !important;
+        padding-right: 20px;
+    }
+    .sidebar-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        overflow: hidden;
+        width: 400px;
+        height: 100vh;
+        padding: 50px 40px;
+        transition: all .5s ease 0s;
+        transform: translateX(-100%);
+        background-color: var(--white);
+        box-shadow: none;
+        z-index: 99999;
+    }
+    .open{
+        transform: translateX(0%) !important;
+    }
+    .menu-head{
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+    }
+    .close {
+        background-color: transparent;
+        font-size: 30px;
+        padding: 0 15px;
+    }
+    .side-menu ul li{
+        margin-bottom: 16px;
+    }
+    .side-menu ul li .sub-item-link {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        font-size: 14px;
+        justify-content: space-between;
+        color: var(--paragraph-color);
+        transition: all .3s ease;
+    }
+    .side-menu ul li .sub-item-link  li a{
+        color: var(--paragraph-color);
+    }
+    .side-menu ul li .menu-expand{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .side-menu ul li .menu-expand::after{
+        position: absolute;
+        width: 14px;
+        height: 2px;
+        content: "";
+        transition: all .5s ease 0s;
+        transform: scale(0.75);
+        background-color: #7e7e7e;
+    }
+    .side-menu ul li .menu-expand::before{
+        position: absolute;
+        width: 14px;
+        height: 2px;
+        content: "";
+        transition: all .5s ease 0s;
+        transform: scale(0.75);
+        background-color: #7e7e7e;
+        transform: rotate(90deg) scale(0.75);
+    }
+    .menu-active .menu-expand::before{
+        transform: rotate(0deg) scale(0.75) !important;
+    }
+    .side-menu ul .inner{
+        padding-left: 15px;
+        overflow: hidden;
+        display: none;
+    }
+    .side-menu ul .inner li{
+        margin-top: 16px;
+    }
+    .side-menu ul .inner li a{
+        display: block;
+        color: var(--paragraph-color);
+        transition: all .3s;
+        position: relative;
+    }
+}
+@media (max-width: 767px){
+    .header-menu{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+    .sidebar-menu{
+        width: 350px;
+        padding: 50px 20px;
+    }
+    .car-dealer-tab{
+        margin: 0 15px;
+    }
+}
+@media (max-width: 350px){
+    
+    .sidebar-menu{
+        width: 300px;
+        padding: 50px 20px;
+    }
+}
